@@ -21,7 +21,7 @@ function setAwardee(){
     var url = document.URL.split("?");
     
     if(url.length === 2){
-        setAwardeeName(url[1]);
+        setAwardeeName(url[1].replace("%20", " "));
     }
 }
 
