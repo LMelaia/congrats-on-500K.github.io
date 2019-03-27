@@ -1,2 +1,2 @@
-# congrats-on-500K.github.io
-A web page congra
+# Congrats on 500,000 Points
+A simple single web page congratulating someone on achieving 500,000 on a League of Legends champion.
