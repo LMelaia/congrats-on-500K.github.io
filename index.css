@@ -5,6 +5,8 @@
 body {
     background-image: url("images/background-3.png");
     background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
 }
 
 h1 {
