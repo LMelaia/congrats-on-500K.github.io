@@ -19,10 +19,18 @@ $(document).ready(function() {
  */
 function setAwardee(){
     var url = document.URL.split("?");
+    var awardee;
     
-    if(url.length === 2){
-        setAwardeeName(url[1].replace("%20", " "));
+    if(url.length !== 2){
+        return;
     }
+    
+    awardee = url[1];
+    
+    for(i = 0; i < 10; i++)
+        awardee = awardee.replace("%20", " ");
+    
+    setAwardeeName(awardee);
 }
 
 /**
